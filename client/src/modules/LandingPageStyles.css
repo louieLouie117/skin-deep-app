@@ -26,7 +26,7 @@
     background-color: #25454D;
     color: white;
     font: 1.3em sans-serif;
-    height: 91vh;
+    height: 100vh;
     width: 100vw;
     position: absolute;
     top: 90px;
@@ -42,29 +42,63 @@
 .HeroBanner{
     display: grid;
     font: 1em sans-serif;
+    align-items: center;
+    
 }
 
-.HeroBanner img{
-    grid-row: 1/3;
-    grid-column: 1/2;
-    filter: blur(0); 
-    filter: blur(1px);
-    filter: blur(.1rem); 
-    width: 100vw;
-}
-
-.HeroBanner h1{
+.HeroBanner header{
+    display: grid;
+    row-gap: 20px;
     grid-row: 1/2;
     grid-column: 1/2;
-    z-index: 1;
-    color: white;
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.637);
-    font: 2.3em sans-serif;
+    background: #25454dc9;
+    max-width: 45em;
+    padding: 20px;
+    justify-self: center;
+    border-radius: 20px;
+    
+
+
 }
 
-.HeroBanner button{
-    grid-row: 2/3;
+.HeroBanner picture{
+    grid-row: 1/2;
     grid-column: 1/2;
+    border: none;
+    background-color: #25454D;
+   
+}
+
+.HeroBanner picture img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.HeroBanner>header h1{
+    z-index: 1;
+    color: white;
+    /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.59); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.7em;
+    justify-content: center;
+    line-height: 30px;
+    padding: 20px;
+    align-items: bottom;
+    justify-self: center;
+    
+}
+
+.HeroBanner h1 i{
+    color: #ffdfb3;
+    /* text-decoration: underline; */
+    /* text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.59); */
+    /* -webkit-text-stroke: .2px white; */
+}
+
+
+.HeroBanner button{
     width: 250px;
     height: 60px;
     justify-self: center;
@@ -83,29 +117,106 @@
 
 
 .PRPServices{
+    max-width: 65em;
     display: grid;  
     justify-content: left;  
     text-align: left;
-    padding: 30px;
     row-gap: 10px;
+    justify-self: center;
 }
 
-.PRPServices p{
+
+.PRPServices>header{
+    display: grid;
+    padding: 30px;
+
+}
+
+.PRPServices>header h3{
+    font: 2.2em sans-serif;
+}
+.PRPServices>header p{
     font: 1.1em sans-serif;
 }
 
-.PRPServices>ul {
-    display: flex;
-    column-gap: 50px;
+.PRPServices>header p i{
+    color: #C29557;
+}
+
+.PRPServices>main{
+    display: grid;
+    background-color: #C29557;
+    padding: 30px;
+    row-gap: 30px;
+
+}
+
+.PRPServices>main section{
+    background: white;
+    padding: 30px;
+
+}
+
+.PRPServices>main section h2{
+    font: 1.9em sans-serif;
+    color: #C29557;
+    padding-top: 10px;
+}
+
+.PRPServices>main section p{
+    font: 1.2em sans-serif;
+    color: black;
+    line-height: 30px;    
+}
+
+.PRPServices>main section picture img{
+    max-width: 260px;
+}
+
+
+.PRPServices>main ul {
+    background: white;
+   margin: 0;
+    padding: 30px;
     justify-self: center;
     font: 1.1em sans-serif;
 }
 
-.PRPServices>ul li{
+.PRPServices>main ul li{
+    color: black;
     list-style-type: circle;
 }
 
-.PRPServices h1, .PRPServices h2{
-    color: #C29557;
+.PRPServices main h1, .PRPServices main h2{
+    color: white;
     font: 1.5em sans-serif;
+}
+
+
+@media screen and (min-width: 1130px) {
+
+    .HeroBanner>header h1{
+        font-size: 2.8em;
+        line-height: 45px;
+    }
+
+    .MenuContainer{
+        max-width: 20em;
+    }
+
+    .HeroBanner img{
+        height: 400px;
+    }
+
+    .PRPServices>main ul {
+        display: flex;
+        column-gap: 50px;
+    }
+
+.PRPServices>main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+    
 }

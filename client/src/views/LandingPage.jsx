@@ -1,13 +1,13 @@
 import React from 'react'
 import About from '../components/About'
-import HeroHeader from '../components/HeroHeader'
+// import PRPHeader from '../components/PRPHeader'
 import Menu from '../components/Menu'
-import NavMenu from '../components/NavMenu'
+// import NavMenu from '../components/NavMenu'
 import PRPServices from '../components/PRPServices'
 import LandingPageStyles from '../modules/LandingPageStyles.css'
 
 import { useState } from 'react'
-
+import HeroBanner from '../components/HeroBanner'
 
 
 
@@ -34,6 +34,7 @@ const LandingPage = props => {
 
   return (
     <div className='LandingPageContainer'>
+
         {/* <NavMenu></NavMenu> */}
 
         <nav className='MainNavMenu'>
@@ -45,8 +46,11 @@ const LandingPage = props => {
           <Menu></Menu>
         </div>
 
-        <HeroHeader></HeroHeader>
+        <HeroBanner></HeroBanner>
+
         <PRPServices></PRPServices>
+        {/* <PRPHeader></PRPHeader> */}
+
         <About></About>
 
     </div>
