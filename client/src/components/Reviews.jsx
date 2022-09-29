@@ -32,7 +32,6 @@ const Reviews = props => {
     
         <li>
         <h1>{quotesIcon}</h1>
-
           <p>"I got the o shot yesterday and Jamie made me super comfortable. She is very knowledgeable and explains everything in detail. She is also invested in your results and wants to make sure you have the best results possible!"</p>
           <h2>- Michelle R</h2>
         </li>
