@@ -14,7 +14,7 @@ const Reviews = props => {
   return (
     <div className='ReviewsContainer'>
       <h1>What Skin Deep clients are saying..</h1>
-      <ul className='ImgFexGallery'>
+      <ul>
 
       <li>
           <h1>{quotesIcon}</h1>

@@ -42,14 +42,31 @@ const PRPServices = props => {
           </picture>
 
           <picture>
-            <img src="/img/assets/PRPResults1.png" alt="" />
+            <img src="/img/assets/PRPResults2.png" alt="" />
           </picture>
           <picture>
-            <img src="/img/assets/PRPResults1.png" alt="" />
+            <img src="/img/assets/PRPResults3.png" alt="" />
           </picture>
           <picture>
-            <img src="/img/assets/PRPResults1.png" alt="" />
+            <img src="/img/assets/PRPResults4.png" alt="" />
           </picture>
+
+          <picture>
+            <img src="/img/assets/PRPResults5.png" alt="" />
+          </picture>
+
+          <picture>
+            <img src="/img/assets/PRPResults6.png" alt="" />
+          </picture>
+
+          <picture>
+            <img src="/img/assets/PRPResults7.png" alt="" />
+          </picture>
+
+          <picture>
+            <img src="/img/assets/PRPResults8.png" alt="" />
+          </picture>
+          
         </footer>    
        
         </main>

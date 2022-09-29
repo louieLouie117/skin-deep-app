@@ -27,8 +27,7 @@ const About = props => {
             <li>Masters of Science in Nursing, MSN</li>
             <li>Advanced Registered Nurse Practitioner, ARNP</li>
             <li>Certified Nurse Midwife, CNM</li>
-            <li>Certified Cosmetic Injector- specializing in PRP (Platelet Rich Plasma) for</li>
-            <li>aesthetics, women's health and sexual health.</li>
+            <li>Certified Cosmetic Injector- specializing in PRP (Platelet Rich Plasma) for aesthetics, women's health and sexual health.</li>
           </ul>
 
         </section>
