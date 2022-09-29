@@ -8,6 +8,7 @@ import LandingPageStyles from '../modules/LandingPageStyles.css'
 
 import { useState } from 'react'
 import HeroBanner from '../components/HeroBanner'
+import Reviews from '../components/Reviews'
 
 
 
@@ -18,7 +19,7 @@ const LandingPage = props => {
 
   const [mainMenu, setMainMenu] = useState(false);
 
-  const NavHandler = (e) => {
+  const MenuHandler = (e) => {
     console.log("Nav Handler was called",e)
     if(mainMenu === false){
       setMainMenu(true)
@@ -38,12 +39,12 @@ const LandingPage = props => {
         {/* <NavMenu></NavMenu> */}
 
         <nav className='MainNavMenu'>
-          <img src="/img/assets/MenuIcon.png" alt="" onClick={(e)=> NavHandler(e)} />
+          <img src="/img/assets/MenuIcon.png" alt="" onClick={(e)=> MenuHandler(e)} />
           <img src="/img/assets/LogoImg.png" alt="" />
         </nav>
 
         <div style={{ display: mainMenu ? "grid": "none"}}>
-          <Menu></Menu>
+          <Menu MenuHandler={MenuHandler}></Menu>
         </div>
 
         <HeroBanner></HeroBanner>
@@ -51,6 +52,7 @@ const LandingPage = props => {
         <PRPServices></PRPServices>
         {/* <PRPHeader></PRPHeader> */}
 
+        <Reviews></Reviews>
         <About></About>
 
     </div>
