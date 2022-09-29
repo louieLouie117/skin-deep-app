@@ -17,7 +17,10 @@ const Menu = ({MenuHandler}) => {
 
             </li>
             {/* <li>About Skin Deep</li> */}
-            <li>More Health Services</li>
+            <li>
+              
+              <a href="https://black-desert-0dacd3210.2.azurestaticapps.net/">More Health Services</a>
+              </li>
         </ul>
     </div>
   )

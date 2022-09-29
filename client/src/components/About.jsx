@@ -5,8 +5,6 @@ const About = props => {
     <div className='AboutUs-Container'>
   
       <main>
-        
-
           <picture>
             <img src="/img/assets/JamieProfileImg.png" alt="" />
           </picture>
