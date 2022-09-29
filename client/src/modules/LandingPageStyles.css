@@ -312,8 +312,14 @@
     text-align: left;
     align-content: flex-start;
     row-gap: 10px;
+    padding-bottom: 30px;
 
 
+}
+
+.AboutUs-Container>main section ul li{
+    list-style: circle;
+    
 }
 
 .AboutUs-Container>main section:last-of-type{
@@ -347,6 +353,11 @@
 }
 
 
+.Footer-Container{
+    background-color: #25454D;
+    color: white;
+    padding:  20px 0;
+}
 
 
 

@@ -9,6 +9,7 @@ import LandingPageStyles from '../modules/LandingPageStyles.css'
 import { useState } from 'react'
 import HeroBanner from '../components/HeroBanner'
 import Reviews from '../components/Reviews'
+import Footer from '../components/Footer'
 
 
 
@@ -55,6 +56,7 @@ const LandingPage = props => {
         <Reviews></Reviews>
         <About></About>
 
+        <Footer></Footer>
     </div>
   )
 }
