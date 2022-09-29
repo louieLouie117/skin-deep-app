@@ -16,7 +16,7 @@ const About = props => {
           <h1>Meet Jamie Grabowski, MSN, ARNP, CN</h1>
           <p>Jamie has 13 years experience working in the medical field. She is passionate about Womens health and spent the majority of her career delivering babies and tending to mothers and infants. Jamie is a holistic provider which led to her training in PRP.</p>
 
-          <button>Contact Me</button>
+          <a href="mailto:skindeep.jamie@gmail.com?subject=&body=Hello, Jamie">Contact Me</a>
 
         </section>
 

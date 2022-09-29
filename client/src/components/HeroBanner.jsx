@@ -9,7 +9,8 @@ const HeroBanner = props => {
         </picture>
       <header>
         <h1>Skin Deep is a <i>med spa</i> specializing in <i>PRP.</i></h1>
-        <button>Book Your Spot Now!</button>
+        <a href="https://calendly.com/redamounir">Book Your Spot Now!</a>
+        {/* <button>Book Your Spot Now!</button> */}
       </header>
 
     </div>

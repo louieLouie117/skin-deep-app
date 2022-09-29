@@ -73,7 +73,7 @@
     row-gap: 10px;
     grid-row: 1/2;
     grid-column: 1/2;
-    background: #25454db3;
+    background: #25454db9;
     max-width: 45em;
     padding: 20px;
     justify-self: center;
@@ -120,9 +120,9 @@
 }
 
 
-.HeroBanner button{
+.HeroBanner button, .HeroBanner a{
+    text-decoration: none;
     width: 250px;
-    height: 60px;
     justify-self: center;
     font: 1.3em sans-serif;
     padding: 10px;
@@ -249,6 +249,7 @@
 }
 
 .ReviewsContainer>ul{
+    background-color: white;
     justify-content: left;
     display: flex;
     overflow: scroll;
@@ -289,6 +290,7 @@
 
 
 .AboutUs-Container{
+    margin-top: 50px;
     display: grid;
     background-color: #C29557;
     /* align-items: center; */
@@ -341,13 +343,15 @@
     
 }
 
-.AboutUs-Container>main section button{
+.AboutUs-Container>main section a{
     background-color: #25454D;
     border: none;
-    height: 50px;
     width: 150px;
     color: white;
-    font: 1em sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font: 1.2em sans-serif;
+    padding: 10px;
 }
 
 .AboutUs-Container>footer{

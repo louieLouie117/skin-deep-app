@@ -8,8 +8,14 @@ const Menu = ({MenuHandler}) => {
         <ul>
             {/* <li>Home</li> */}
             <li onClick={MenuHandler}>Home</li>
-            <li>Book Your Spot</li>
-            <li>Contact Us</li>
+            <li>
+            <a href="https://calendly.com/redamounir">Book Your Spot Today</a>
+              
+            </li>
+            <li>
+            <a href="mailto:skindeep.jamie@gmail.com?subject=&body=Hello, Jamie">Contact Us</a>
+
+            </li>
             {/* <li>About Skin Deep</li> */}
             <li>More Health Services</li>
         </ul>
