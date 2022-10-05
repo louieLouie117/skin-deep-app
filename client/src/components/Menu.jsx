@@ -9,7 +9,7 @@ const Menu = ({MenuHandler}) => {
             {/* <li>Home</li> */}
             <li onClick={MenuHandler}>Home</li>
             <li>
-            <a href="https://calendly.com/redamounir">Book Your Spot Today</a>
+            <a href="https://calendly.com/skindeep-jamie/30min?month=2022-10">Book Your Spot Today</a>
               
             </li>
             <li>
@@ -19,7 +19,7 @@ const Menu = ({MenuHandler}) => {
             {/* <li>About Skin Deep</li> */}
             <li>
               
-              <a href="https://black-desert-0dacd3210.2.azurestaticapps.net/">More Health Services</a>
+              <a href="https://www.skindeephealthservices.com/">More Health Services</a>
               </li>
         </ul>
     </div>

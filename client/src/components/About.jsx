@@ -6,7 +6,7 @@ const About = props => {
   
       <main>
           <picture>
-            <img src="/img/assets/JamieProfileImg.png" alt="" />
+            <img src="/img/assets/JamieProfile.png" alt="" />
           </picture>
 
         <section>
