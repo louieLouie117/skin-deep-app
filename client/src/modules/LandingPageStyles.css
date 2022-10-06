@@ -407,10 +407,10 @@
         column-gap: 50px;
     }
 
-.ReviewsContainer>ul{
-    justify-content: center;
+    .ReviewsContainer>ul{
+        justify-content: center;
 
-}
+    }
     
 
     .PRPServices>main section{

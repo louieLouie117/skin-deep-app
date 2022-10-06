@@ -29,13 +29,13 @@ const Menu = ({MenuHandler}) => {
 
         <footer>
           <h2>
-              <a href="#">Contact/Connect with us</a>
+              <h2>Contact/Connect with us</h2>
 
           </h2>
         <ul className='ContactIcon-Container'>
           
                 <li> 
-                  <a href="">
+                  <a href="tel:419-463-0759">
                   <img src="/img/icons/phoneIcon.png" alt="" />
                   </a>
                   <h2 className='hideInMobile'>Call 419-463-0759</h2>
@@ -44,28 +44,28 @@ const Menu = ({MenuHandler}) => {
 
 
                 <li> 
-                  <a href="">
+                  <a href="sms: 419-463-0759?body=Hello, Jamie">
                     <img src="/img/icons/msgIcon.png" alt="" />
                     </a>
                   <h2 className='hideInMobile'>Text 419-463-0759</h2>
 
                 </li>
                 <li> 
-                  <a href="mailto:skindeep.jamie@gmail.com?subject=&body=Hello, Jamie">
+                  <a href="mailto:skindeep.jamie@gmail.com?subject=&body=Hello, ">
                     <img src="/img/icons/mailIcon.png" alt="" />
                   </a>
                   <h2 className='hideInMobile'>Email: jamie@gmail.com</h2>
                   </li>
 
                 <li> 
-                  <a href="">
+                  <a href="https://www.instagram.com/skindeep.llc/">
                   <img src="/img/icons/instagramIcon.png" alt="" />
                   </a>
                   <h2 className='hideInMobile'>Instagram</h2>
 
                   </li>
                 <li> 
-                  <a href="">
+                  <a href="https://www.facebook.com/profile.php?id=100083565360947">
                   <img src="/img/icons/facebookIcon.png" alt="" />
                   </a>
 
