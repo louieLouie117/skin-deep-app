@@ -15,55 +15,7 @@
 }
 
 
-.MainNavMenu{
-    background: #25454D;
-    display: grid;
-    grid-template-columns: 90px auto 90px;
-    padding: 15px 0;
-    justify-items: center;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 2;
-}
 
-.MainNavMenu img{
-    height: 60px;
-    width: auto;
-    cursor: pointer;
-}
-
-
-.MainNavMenu img:first-of-type{
-    height: 25px;
-    width: 45px;
-}
-
-.MenuContainer{
-    display: grid;
-    grid-template-rows: 1fr auto;
-    background-color: #25454D;
-    color: white;
-    font: 1.3em sans-serif;
-    height: 91vh;
-    width: 100vw;
-    position: absolute;
-    top: 90px;
-    z-index: 3;
-    position: fixed;
-    top: 80px;
-    align-items:flex-start;
-    
-}
-
-.MenuContainer>ul {
-    display: grid;
-    row-gap: 30px;
-}
-
-.MenuContainer>ul li{
-    cursor: pointer;
-}
 
 .HeroBanner{
     display: grid;
@@ -346,7 +298,7 @@
     
 }
 
-.AboutUs-Container>main section a{
+.AboutUs-Container>main section button{
     background-color: #25454D;
     border: none;
     width: 150px;
@@ -388,11 +340,7 @@
         line-height: 45px;
     }
 
-    .MenuContainer{
-        max-width: 20em;
-        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.425);
-        
-    }
+ 
 
     .HeroBanner img{
         height: 400px;

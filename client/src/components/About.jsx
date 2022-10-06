@@ -14,7 +14,7 @@ const About = ({MenuHandler}) => {
           <h1>Meet Jamie Grabowski, MSN, ARNP, CN</h1>
           <p>Jamie has 13 years experience working in the medical field. She is passionate about Womens health and spent the majority of her career delivering babies and tending to mothers and infants. Jamie is a holistic provider which led to her training in PRP.</p>
 
-          <a onClick={MenuHandler}>Contact Me</a>
+          <button onClick={MenuHandler}>Contact Me</button>
 
         </section>
 

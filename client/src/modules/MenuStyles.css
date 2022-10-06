@@ -1,0 +1,117 @@
+.MainNavMenu{
+    background: #25454D;
+    display: grid;
+    grid-template-columns: 90px auto 90px;
+    padding: 15px 0;
+    justify-items: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.MainNavMenu img{
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+
+
+.MainNavMenu img:first-of-type{
+    height: 25px;
+    width: 45px;
+}
+
+.MenuContainer{
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background-color: #25454D;
+    color: white;
+    font: 1.3em sans-serif;
+    height: 91vh;
+    width: 100vw;
+    position: absolute;
+    top: 90px;
+    z-index: 3;
+    position: fixed;
+    top: 80px;
+    align-items:flex-start;
+    
+}
+
+.MenuContainer>ul {
+    display: grid;
+    row-gap: 30px;
+}
+
+.MenuContainer>ul li{
+    cursor: pointer;
+}
+
+
+.ContactIcon-Container{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    column-gap: 10px;
+    justify-content: center;
+  }
+  
+
+
+.ContactIcon-Container>li img{
+    height: 40px;
+    width: auto;
+  }
+  
+  
+  .MenuContainer>footer{
+    align-self: flex-end;
+  
+  }
+  
+  .MenuContainer>footer>ul::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .MenuContainer>footer h2{
+    font: 1em sans-serif;
+  }
+
+
+
+@media screen and (min-width: 1130px) {
+
+    .HeroBanner>header{
+        max-width: 45em;
+    }
+
+    .HeroBanner>header h1{
+        font-size: 2.8em;
+        line-height: 45px;
+    }
+
+    .MenuContainer{
+        max-width: 20em;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.425);
+        
+    }
+
+  
+
+    .ContactIcon-Container{
+        display: grid;
+      }
+    
+    .ContactIcon-Container>li{
+      display: grid;
+      grid-template-columns: 50px 1fr;
+      text-align: left;
+      align-items: center;
+    }
+
+   
+
+  
+
+}
