@@ -24,7 +24,7 @@
 
 .MenuContainer{
     display: grid;
-    grid-template-rows: 1fr auto;
+    /* grid-template-rows:auto 1fr; */
     background-color: #25454D;
     color: white;
     font: 1.3em sans-serif;
@@ -64,12 +64,12 @@
     width: auto;
   }
   
-  
+/*   
   .MenuContainer>footer{
     align-self: flex-end;
   
   }
-  
+   */
   .MenuContainer>footer>ul::-webkit-scrollbar{
     display: none;
   }
