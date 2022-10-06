@@ -6,7 +6,6 @@ const Menu = ({MenuHandler}) => {
 
 
 
-
   return (
     <div className='MenuContainer'>
         <ul>
@@ -23,29 +22,59 @@ const Menu = ({MenuHandler}) => {
               <a href="https://www.skindeephealthservices.com/">More Health Services</a>
               </li>
 
-              <li>
-              <a href="#">Contact Us</a>
+             
 
-            </li>   
+           
+        </ul>
 
-              <ul className='ContactIcon-Container'>
-                <li> <img src="/img/icons/phoneIcon.png" alt="" /></li>
+        <footer>
+          <h2>
+              <a href="#">Contact/Connect with us</a>
+
+          </h2>
+        <ul className='ContactIcon-Container'>
+          
+                <li> 
+                  <a href="">
+                  <img src="/img/icons/phoneIcon.png" alt="" />
+                  </a>
+                  <h2 className='hideInMobile'>Call 419-463-0759</h2>
+                  
+                  </li>
+
 
                 <li> 
-                  
+                  <a href="">
                     <img src="/img/icons/msgIcon.png" alt="" />
+                    </a>
+                  <h2 className='hideInMobile'>Text 419-463-0759</h2>
+
                 </li>
                 <li> 
                   <a href="mailto:skindeep.jamie@gmail.com?subject=&body=Hello, Jamie">
                     <img src="/img/icons/mailIcon.png" alt="" />
                   </a>
-                  
+                  <h2 className='hideInMobile'>Email: jamie@gmail.com</h2>
                   </li>
 
-                <li> <img src="/img/icons/instagramIcon.png" alt="" /></li>
-                <li> <img src="/img/icons/facebookIcon.png" alt="" /></li>
+                <li> 
+                  <a href="">
+                  <img src="/img/icons/instagramIcon.png" alt="" />
+                  </a>
+                  <h2 className='hideInMobile'>Instagram</h2>
+
+                  </li>
+                <li> 
+                  <a href="">
+                  <img src="/img/icons/facebookIcon.png" alt="" />
+                  </a>
+
+                  <h2 className='hideInMobile'>Facebook</h2>
+
+                  </li>
+
               </ul>
-        </ul>
+        </footer>
        
 
     </div>

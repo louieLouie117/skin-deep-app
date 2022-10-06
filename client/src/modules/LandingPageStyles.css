@@ -40,16 +40,20 @@
 }
 
 .MenuContainer{
+    display: grid;
+    grid-template-rows: 1fr auto;
     background-color: #25454D;
     color: white;
     font: 1.3em sans-serif;
-    height: 100vh;
+    height: 91vh;
     width: 100vw;
     position: absolute;
     top: 90px;
     z-index: 3;
     position: fixed;
     top: 80px;
+    align-items:flex-start;
+    
 }
 
 .MenuContainer>ul {
@@ -386,6 +390,8 @@
 
     .MenuContainer{
         max-width: 20em;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.425);
+        
     }
 
     .HeroBanner img{

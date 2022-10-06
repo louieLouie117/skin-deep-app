@@ -19,6 +19,8 @@ const LandingPage = props => {
   <LandingPageStyles></LandingPageStyles>
 
   const [mainMenu, setMainMenu] = useState(false);
+  // const [menuText, setMenuText] = useState(false);
+
 
   const MenuHandler = (e) => {
     console.log("Nav Handler was called",e)
@@ -54,7 +56,7 @@ const LandingPage = props => {
         {/* <PRPHeader></PRPHeader> */}
 
         <Reviews></Reviews>
-        <About></About>
+        <About MenuHandler={MenuHandler}></About>
 
         <Footer></Footer>
     </div>

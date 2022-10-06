@@ -67,3 +67,43 @@ a{
   height: 40px;
   width: auto;
 }
+
+
+.MenuContainer>footer{
+  align-self: flex-end;
+
+}
+
+.MenuContainer>footer>ul::-webkit-scrollbar{
+  display: none;
+}
+
+.MenuContainer>footer h2{
+  font: 1em sans-serif;
+}
+
+.hideInMobile{
+  display: none;
+}
+
+
+@media screen and (min-width: 1130px) {
+
+
+  .ContactIcon-Container{
+    display: grid;
+  }
+
+.ContactIcon-Container>li{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  text-align: left;
+  align-items: center;
+}
+
+.hideInMobile{
+  display: block;
+}
+
+
+}
