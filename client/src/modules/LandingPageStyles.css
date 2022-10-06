@@ -52,12 +52,12 @@
     top: 80px;
 }
 
-.MenuContainer ul {
+.MenuContainer>ul {
     display: grid;
-    row-gap: 40px;
+    row-gap: 30px;
 }
 
-.MenuContainer ul li{
+.MenuContainer>ul li{
     cursor: pointer;
 }
 
