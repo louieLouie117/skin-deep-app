@@ -45,9 +45,17 @@
 }
 
 .MenuContainer>ul li{
+  display: flex;
     cursor: pointer;
+    justify-content: center;
+    align-items:  center;
+    column-gap: 5px;
 }
 
+.MenuContainer>ul li img{
+  height: 40px;
+  width: auto;
+}
 
 .ContactIcon-Container{
     display: flex;

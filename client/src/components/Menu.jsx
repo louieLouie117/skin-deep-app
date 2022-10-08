@@ -11,18 +11,20 @@ const Menu = ({MenuHandler}) => {
         <ul>
             {/* <li>Home</li> */}
             <li onClick={MenuHandler}>Home</li>
-            <li>
-            <a href="https://calendly.com/skindeep-jamie/30min?month=2022-10">Book Your Spot Today</a>
-              
-            </li>
+           
           
             {/* <li>About Skin Deep</li> */}
             <li>
               
-              <a href="https://www.skindeephealthservices.com/">More Health Services</a>
+              <a href="https://www.skindeephealthservices.com/">More Health Services
+              </a>
               </li>
 
-             
+              <li>
+              <img src="/img/icons/calenderIcon.png" alt="" />
+              <a href="https://calendly.com/skindeep-jamie/30min?month=2022-10">Book Your Spot Today</a>
+              
+            </li>
 
            
         </ul>
@@ -39,7 +41,6 @@ const Menu = ({MenuHandler}) => {
                   <img src="/img/icons/phoneIcon.png" alt="" />
                   </a>
                   <h2 className='hideInMobile'>Call 419-463-0759</h2>
-                  
                   </li>
 
 
