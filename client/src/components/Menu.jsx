@@ -25,9 +25,21 @@ const Menu = ({MenuHandler}) => {
               <a href="https://calendly.com/skindeep-jamie/30min?month=2022-10">Book Your Spot Today</a>
               
             </li>
+          
 
            
         </ul>
+
+        <aside>
+          <ul>
+          <li>
+              <h2>Address</h2>
+              <p>366 East Graves Ave Suite C, Orange City Florida 32763</p>
+
+              <a href="http://maps.google.com/?q=366 East Graves Ave Suite C, Orange City Florida 32763" target="blank"><button>Directions</button></a>
+            </li>
+          </ul>
+        </aside>
 
         <footer>
           <h2>
@@ -55,7 +67,7 @@ const Menu = ({MenuHandler}) => {
                   <a href="mailto:skindeep.jamie@gmail.com?subject=&body=Hello, ">
                     <img src="/img/icons/mailIcon.png" alt="" />
                   </a>
-                  <h2 className='hideInMobile'>Email: jamie@gmail.com</h2>
+                  <h2 className='hideInMobile'>Email:skindeep.jamie@gmail.com</h2>
                   </li>
 
                 <li> 

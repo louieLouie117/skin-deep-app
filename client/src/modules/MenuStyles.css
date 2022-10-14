@@ -57,6 +57,31 @@
   width: auto;
 }
 
+.MenuContainer>aside{
+  display: grid;
+  text-align: left;
+  width: 15em;
+  justify-self: center;
+}
+.MenuContainer>aside ul li {
+  display: grid;
+  justify-content: center;
+  row-gap: 5px;
+
+}
+
+.MenuContainer>aside ul li h2{
+  font: 1.2em sans-serif;
+}
+
+.MenuContainer>aside ul li a button{
+  background-color: #B99363;
+  border: none;
+  height: 35px;
+  color: white;
+  width: 100%;
+  font: 1em sans-serif;
+}
 .ContactIcon-Container{
     display: flex;
     width: 100%;
