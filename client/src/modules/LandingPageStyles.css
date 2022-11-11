@@ -327,6 +327,44 @@
     padding:  20px 0;
 }
 
+.promo-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #C29557;
+    padding: 30px 0;
+    justify-self: center;
+
+}
+
+.promo-container>header {
+    display: grid;
+}
+
+.promo-container>header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-family: monospace;
+}
+
+
+.promo-container header picture img{
+    height: auto;
+    width: 350px;    
+}
+
+.promo-container>main {
+    display: grid;
+    row-gap: 30px;
+}
+
+
+.promo-container>main p{
+    font: 1.7em sans-serif;
+    color: white;
+
+}
+
 
 
 @media screen and (min-width: 1130px) {
@@ -347,7 +385,7 @@
     }
 
     .PRPServices>main{
-        width: 99vw;
+        width: 90vw;
     }
 
     .PRPServices>main ul {
@@ -373,6 +411,12 @@
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 85em;
         justify-self: center;
+
+    }
+
+    .promo-container{
+        grid-template-columns:  1fr 2fr;
+        width: 90vw;
 
     }
 

@@ -10,6 +10,7 @@ import { useState } from 'react'
 import HeroBanner from '../components/HeroBanner'
 import Reviews from '../components/Reviews'
 import Footer from '../components/Footer'
+import Promotion from '../components/Promotion'
 
 
 
@@ -54,6 +55,7 @@ const LandingPage = props => {
 
         <PRPServices></PRPServices>
         {/* <PRPHeader></PRPHeader> */}
+        <Promotion></Promotion>
 
         <Reviews></Reviews>
         <About MenuHandler={MenuHandler}></About>
