@@ -22,7 +22,7 @@ const Menu = ({ MenuHandler }) => {
 
         <li>
           <img src="/img/icons/calenderIcon.png" alt="" />
-          <a href="https://calendly.com/skindeep-jamie/30min?month=2022-10">Book Your Spot Today</a>
+          <a href="https://www.appointfix.com/book/e4b84df7e04f">Book Your Spot Today</a>
 
         </li>
       </ul>
